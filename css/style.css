@@ -1,0 +1,46 @@
+/* Google Font - IBM Plex Sans */
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap");
+/* Variables */
+:root {
+  /* Colors */
+  --colors-sky-blue: #66e2dc;
+  --colors-pink: #fa7453;
+  --colors-rajah: #ffb964;
+  --colors-snow: #fcfaf9;
+  --colors-eerie-black: #191826;
+  /* Fonts */
+  --fonts-main: "IBM Plex Sans", sans-serif;
+}
+/* Global Rules  */
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: var(--fonts-main);
+  cursor: default;
+}
+
+/* Reset Some Elements */
+ul {
+  list-style: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+}
+button {
+  color: inherit;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
