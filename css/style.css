@@ -25,6 +25,7 @@ html {
 }
 body {
   color: var(--colors-eerie-black);
+  background-color: var(--colors-snow);
   font-family: var(--fonts-main);
   cursor: default;
   position: relative;
